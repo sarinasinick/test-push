@@ -26,8 +26,26 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "MeaningTranslate",
+      "params": {
+        "columns": [
+          "price_first_item_purchased",
+          "customer_id"
+        ],
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -53,7 +71,13 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "revenue": 100,
+    "gender": 100,
+    "price_first_item_purchased": 210,
+    "birth": 100,
+    "customer_id": 127
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
