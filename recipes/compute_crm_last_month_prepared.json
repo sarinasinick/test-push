@@ -64,7 +64,7 @@
     "main": {
       "items": [
         {
-          "ref": "crm_last_month_prepared",
+          "ref": "new_dataset",
           "appendMode": false
         }
       ]
@@ -72,11 +72,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641595423139
+    "lastModifiedOn": 1641595533179
   },
   "creationTag": {
     "versionNumber": 0,
