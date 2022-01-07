@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641595533136
+    "lastModifiedOn": 1641595571095
   },
   "creationTag": {
     "versionNumber": 0,
@@ -96,7 +96,8 @@
       },
       {
         "name": "price_first_item_purchased",
-        "type": "boolean"
+        "type": "string",
+        "meaning": "Boolean"
       },
       {
         "name": "gender",
