@@ -1,6 +1,16 @@
 {
   "mode": "UNION",
   "originColumnName": "original_dataset",
+  "selectedColumns": [
+    "customer_id",
+    "age",
+    "price_first_item_purchased",
+    "gender",
+    "revenue",
+    "ip_country",
+    "pages_visited",
+    "campain"
+  ],
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -25,7 +35,12 @@
       "readParams": {
         "mode": "AUTO",
         "autoModeRepartitionInto": 10,
-        "map": {}
+        "map": {
+          "crm_and_web_history_enriched": {
+            "cache": false,
+            "repartition": 10
+          }
+        }
       },
       "overwriteOutputSchema": false,
       "executionEngine": "SPARK_SUBMIT",
@@ -35,6 +50,7 @@
       }
     }
   },
+  "engineType": "SPARK",
   "virtualInputs": [
     {
       "preFilter": {
@@ -46,6 +62,53 @@
     }
   ],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "customer_id",
+            "type": "string",
+            "maxLength": 1000
+          },
+          {
+            "name": "age",
+            "type": "double",
+            "maxLength": 1000
+          },
+          {
+            "name": "price_first_item_purchased",
+            "type": "double",
+            "maxLength": 1000
+          },
+          {
+            "name": "gender",
+            "type": "string",
+            "maxLength": 1000
+          },
+          {
+            "name": "revenue",
+            "type": "double",
+            "maxLength": 1000
+          },
+          {
+            "name": "ip_country",
+            "type": "string",
+            "maxLength": 1000
+          },
+          {
+            "name": "pages_visited",
+            "type": "double",
+            "maxLength": 1000
+          },
+          {
+            "name": "campain",
+            "type": "boolean",
+            "maxLength": 1000
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   },
