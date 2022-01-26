@@ -3,7 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "engineType": "DSS",
+    "engineType": "SPARK",
     "engineParams": {
       "spark": {
         "readParams": {
@@ -84,11 +84,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642815925788
+    "lastModifiedOn": 1643231829496
   },
   "description": "### Process explained\n\nThis recipe\n\n- __computes the age__ of each customer with their birthdate\n- __clears the age cell__ for each customers when the age data is a none sense (people can\u0027t be 114 years old and buying TShirt on internet)\n- __merges historical customers navigational data__ with CRM data\n- __extracts the country__ of each customer knowing his IP address",
   "tags": [],
