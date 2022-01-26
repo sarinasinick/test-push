@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643234344188
+    "lastModifiedOn": 1643234347851
   },
   "tags": [],
   "params": {
@@ -93,7 +93,7 @@
       {
         "name": "price_first_item_purchased",
         "type": "double",
-        "meaning": "LongMeaning",
+        "meaning": "JSONObjectMeaning",
         "maxLength": 1000
       },
       {
