@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643232398012
+    "lastModifiedOn": 1643232448874
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,63 +85,63 @@
   "schema": {
     "columns": [
       {
-        "name": "col_0",
+        "name": "c0",
         "type": "string"
       },
       {
-        "name": "col_1",
+        "name": "c1",
         "type": "string"
       },
       {
-        "name": "col_2",
+        "name": "c2",
         "type": "string"
       },
       {
-        "name": "col_3",
+        "name": "c3",
         "type": "string"
       },
       {
-        "name": "col_4",
+        "name": "c4",
         "type": "string"
       },
       {
-        "name": "col_5",
+        "name": "c5",
         "type": "string"
       },
       {
-        "name": "col_6",
+        "name": "c6",
         "type": "string"
       },
       {
-        "name": "col_7",
+        "name": "c7",
         "type": "string"
       },
       {
-        "name": "col_8",
+        "name": "c8",
         "type": "string"
       },
       {
-        "name": "col_9",
+        "name": "c9",
         "type": "string"
       },
       {
-        "name": "col_10",
+        "name": "c10",
         "type": "string"
       },
       {
-        "name": "col_11",
+        "name": "c11",
         "type": "string"
       },
       {
-        "name": "col_12",
+        "name": "c12",
         "type": "string"
       },
       {
-        "name": "col_13",
+        "name": "c13",
         "type": "string"
       },
       {
-        "name": "col_14",
+        "name": "c14",
         "type": "string"
       }
     ],
