@@ -26,8 +26,26 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "c5"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -53,7 +71,23 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "c11": 100,
+    "c10": 100,
+    "c13": 197,
+    "c12": 100,
+    "c14": 100,
+    "c0": 100,
+    "c1": 127,
+    "c2": 100,
+    "c3": 100,
+    "c4": 100,
+    "c5": 162,
+    "c6": 134,
+    "c7": 113,
+    "c8": 100,
+    "c9": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
