@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643233969150
+    "lastModifiedOn": 1643233973012
   },
   "creationTag": {
     "versionNumber": 0,
@@ -132,7 +132,8 @@
       },
       {
         "name": "c11",
-        "type": "bigint"
+        "type": "bigint",
+        "meaning": "Text"
       },
       {
         "name": "c12",
