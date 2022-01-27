@@ -5,18 +5,18 @@
   "name": "testcenario",
   "active": false,
   "creationTag": {
-    "versionNumber": 11,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1643309962645
-  },
-  "versionTag": {
     "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1643309965432
+  },
+  "versionTag": {
+    "versionNumber": 13,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643309967742
   },
   "checklists": {
     "checklists": []
