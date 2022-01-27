@@ -26,8 +26,23 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "test(",
+        "column": "newcolumn_expression"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -53,7 +68,24 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "col_10": 100,
+    "col_11": 100,
+    "newcolumn_expression": 165,
+    "col_6": 134,
+    "col_5": 162,
+    "col_4": 100,
+    "col_3": 100,
+    "col_2": 100,
+    "col_1": 127,
+    "col_0": 100,
+    "col_14": 100,
+    "col_9": 100,
+    "col_8": 100,
+    "col_12": 100,
+    "col_7": 113,
+    "col_13": 197
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
