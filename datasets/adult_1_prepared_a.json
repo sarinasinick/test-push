@@ -26,7 +26,7 @@
   "formatParams": {
     "style": "excel",
     "charset": "utf8",
-    "separator": "\t",
+    "separator": ",",
     "quoteChar": "\"",
     "escapeChar": "\\",
     "dateSerializationFormat": "ISO",
@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643251010887
+    "lastModifiedOn": 1643251112068
   },
   "creationTag": {
     "versionNumber": 0,
