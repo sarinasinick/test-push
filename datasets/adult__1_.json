@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643248581129
+    "lastModifiedOn": 1643248589995
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,9 +73,22 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "a0c8979c8caa2b5108eac725193fb6c430cfa02f0c0ecc17062592e2882c7421",
-    "uploadConnection": "s3",
     "uploadFSProviderType": "S3",
+    "uploadedConfig": {
+      "bucket": "dku-sarina-support",
+      "metastoreSynchronizationEnabled": true,
+      "metastoreTableName": "adult__1_",
+      "connection": "s3",
+      "path": "/dataiku/uploads/${projectKey}/adult__1_",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "s3",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
