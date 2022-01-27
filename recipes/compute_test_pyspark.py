@@ -16,6 +16,9 @@ print(adult__1__df.head(5))
 # TODO: Replace this part by your actual code that computes the output, as a SparkSQL dataframe
 test_pyspark_df = adult__1__df # For this sample code, simply copy input to output
 
+print(test_pyspark_df.head(5))
+
+
 # Write recipe outputs
 test_pyspark = dataiku.Dataset("test_pyspark")
 dkuspark.write_with_schema(test_pyspark, test_pyspark_df)
