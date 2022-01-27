@@ -10,6 +10,7 @@ sqlContext = SQLContext(sc)
 # Read recipe inputs
 adult__1_ = dataiku.Dataset("adult__1_")
 adult__1__df = dkuspark.get_dataframe(sqlContext, adult__1_)
+print(adult__1__df.head(5))
 
 # Compute recipe outputs from inputs
 # TODO: Replace this part by your actual code that computes the output, as a SparkSQL dataframe
