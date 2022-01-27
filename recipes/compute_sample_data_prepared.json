@@ -3,6 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
+    "engineType": "SPARK",
     "engineParams": {
       "spark": {
         "readParams": {
@@ -72,11 +73,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643252485396
+    "lastModifiedOn": 1643252518514
   },
   "creationTag": {
     "versionNumber": 0,
