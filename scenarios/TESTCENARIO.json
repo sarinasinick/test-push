@@ -5,18 +5,18 @@
   "name": "testcenario",
   "active": false,
   "creationTag": {
-    "versionNumber": 12,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1643309965432
-  },
-  "versionTag": {
     "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1643309967742
+  },
+  "versionTag": {
+    "versionNumber": 14,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643309982966
   },
   "checklists": {
     "checklists": []
@@ -60,27 +60,6 @@
           "jobType": "RECURSIVE_BUILD",
           "refreshHiveMetastore": true,
           "proceedOnFailure": true
-        }
-      },
-      {
-        "id": "custom_python_KgCYSPInKL0Y4TfzLzSwvA",
-        "type": "custom_python",
-        "name": "Step #2",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
-        "runConditionStatuses": [
-          "SUCCESS",
-          "WARNING"
-        ],
-        "runConditionExpression": "",
-        "resetScenarioStatus": false,
-        "delayBetweenRetries": 10,
-        "maxRetriesOnFail": 0,
-        "params": {
-          "script": "asfsad",
-          "envSelection": {
-            "envMode": "INHERIT"
-          },
-          "proceedOnFailure": false
         }
       },
       {
