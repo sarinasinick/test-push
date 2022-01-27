@@ -5,18 +5,18 @@
   "name": "testcenario",
   "active": false,
   "creationTag": {
-    "versionNumber": 10,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1643308830836
-  },
-  "versionTag": {
     "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1643309962645
+  },
+  "versionTag": {
+    "versionNumber": 12,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643309965432
   },
   "checklists": {
     "checklists": []
@@ -94,7 +94,7 @@
         ],
         "runConditionExpression": "",
         "resetScenarioStatus": false,
-        "delayBetweenRetries": 10,
+        "delayBetweenRetries": 30,
         "maxRetriesOnFail": 2,
         "params": {
           "builds": [
