@@ -5,18 +5,18 @@
   "name": "testcenario",
   "active": false,
   "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1642184066705
-  },
-  "versionTag": {
     "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1643307730590
+  },
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643307834305
   },
   "checklists": {
     "checklists": []
@@ -49,6 +49,11 @@
             {
               "type": "DATASET",
               "itemId": "test_for_spaces_1_prepared",
+              "partitionsSpec": ""
+            },
+            {
+              "type": "DATASET",
+              "itemId": "web_history",
               "partitionsSpec": ""
             }
           ],
