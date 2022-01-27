@@ -13,7 +13,6 @@ adult_1_prepared_a_df = adult_1_prepared_a.get_dataframe()
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
 myython_df = adult_1_prepared_a_df # For this sample code, simply copy input to output
-asdfas
 
 # Write recipe outputs
 myython = dataiku.Dataset("myython")
