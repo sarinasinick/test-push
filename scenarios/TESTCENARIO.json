@@ -5,18 +5,18 @@
   "name": "testcenario",
   "active": false,
   "creationTag": {
-    "versionNumber": 9,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1643308824188
-  },
-  "versionTag": {
     "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1643308830836
+  },
+  "versionTag": {
+    "versionNumber": 11,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643309962645
   },
   "checklists": {
     "checklists": []
@@ -95,12 +95,12 @@
         "runConditionExpression": "",
         "resetScenarioStatus": false,
         "delayBetweenRetries": 10,
-        "maxRetriesOnFail": 0,
+        "maxRetriesOnFail": 2,
         "params": {
           "builds": [
             {
               "type": "DATASET",
-              "itemId": "adult_1_prepared_a_prepared",
+              "itemId": "myython",
               "partitionsSpec": ""
             }
           ],
