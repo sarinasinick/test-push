@@ -5,18 +5,18 @@
   "name": "testcenario",
   "active": false,
   "creationTag": {
-    "versionNumber": 4,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1643307878496
-  },
-  "versionTag": {
     "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1643307879603
+  },
+  "versionTag": {
+    "versionNumber": 6,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643307897644
   },
   "checklists": {
     "checklists": []
@@ -80,7 +80,7 @@
           "envSelection": {
             "envMode": "INHERIT"
           },
-          "proceedOnFailure": true
+          "proceedOnFailure": false
         }
       }
     ]
