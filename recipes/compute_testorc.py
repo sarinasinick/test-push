@@ -5,7 +5,7 @@ from pyspark import SparkContext
 from pyspark.sql import SQLContext
 
 sc = SparkContext.getOrCreate()
-sqlContext = SQLContext(sc)
+sqlContext = HiveContext(sc)
 
 # Read recipe inputs
 sample_data_prepared = dataiku.Dataset("sample_data_prepared")
