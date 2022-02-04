@@ -5,18 +5,18 @@
   "name": "scneario_reporter",
   "active": false,
   "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1644016704756
-  },
-  "versionTag": {
     "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1644016773801
+  },
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1644016801151
   },
   "checklists": {
     "checklists": []
@@ -35,7 +35,8 @@
         "type": "dataset-scenario",
         "configuration": {
           "projectKey": "DKU_TSHIRTS",
-          "datasetName": "test"
+          "datasetName": "test",
+          "message": "{\n    \"col1\": \" ${scenarioName}\",\n    \"col2\": \" ${outcome} \"\n}"
         }
       },
       "id": "PIQi2bS0",
