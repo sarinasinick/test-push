@@ -1,7 +1,7 @@
 {
   "type": "HDFS",
   "managed": false,
-  "formatType": "orcfile",
+  "formatType": "parquet",
   "checklists": {
     "checklists": []
   },
@@ -23,10 +23,11 @@
     }
   },
   "formatParams": {
-    "compressionMethod": "SNAPPY",
-    "serdeClass": "org.apache.hadoop.hive.ql.io.orc.OrcSerde",
-    "serdeProperties": {},
-    "representsNullFields": false
+    "parquetLowerCaseIdentifiers": false,
+    "representsNullFields": false,
+    "parquetCompressionMethod": "SNAPPY",
+    "parquetFlavor": "HIVE",
+    "parquetBlockSizeMB": 128
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -34,11 +35,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644017161955
+    "lastModifiedOn": 1644017293754
   },
   "creationTag": {
     "versionNumber": 0,
