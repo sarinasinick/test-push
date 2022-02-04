@@ -1,6 +1,7 @@
 {
   "type": "HDFS",
   "managed": false,
+  "formatType": "orcfile",
   "checklists": {
     "checklists": []
   },
@@ -21,17 +22,23 @@
       "rules": []
     }
   },
+  "formatParams": {
+    "compressionMethod": "SNAPPY",
+    "serdeClass": "org.apache.hadoop.hive.ql.io.orc.OrcSerde",
+    "serdeProperties": {},
+    "representsNullFields": false
+  },
   "partitioning": {
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644016851619
+    "lastModifiedOn": 1644016885271
   },
   "creationTag": {
     "versionNumber": 0,
