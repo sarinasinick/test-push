@@ -1,7 +1,7 @@
 {
   "type": "S3",
   "managed": true,
-  "formatType": "csv",
+  "formatType": "orcfile",
   "checklists": {
     "checklists": []
   },
@@ -24,34 +24,10 @@
     }
   },
   "formatParams": {
-    "style": "excel",
-    "charset": "utf8",
-    "separator": "\t",
-    "quoteChar": "\"",
-    "escapeChar": "\\",
-    "dateSerializationFormat": "ISO",
-    "arrayMapFormat": "json",
-    "hiveSeparators": [
-      "\u0002",
-      "\u0003",
-      "\u0004",
-      "\u0005",
-      "\u0006",
-      "\u0007",
-      "\b"
-    ],
-    "skipRowsBeforeHeader": 0,
-    "parseHeaderRow": false,
-    "skipRowsAfterHeader": 0,
-    "probableNumberOfRecords": 0,
-    "normalizeBooleans": false,
-    "normalizeDoubles": true,
-    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
-    "readMissingColumnsBehavior": "DISCARD_SILENT",
-    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
-    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
-    "fileReadFailureBehavior": "FAIL",
-    "compress": "gz"
+    "compressionMethod": "SNAPPY",
+    "serdeClass": "org.apache.hadoop.hive.ql.io.orc.OrcSerde",
+    "serdeProperties": {},
+    "representsNullFields": false
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -59,11 +35,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643252483330
+    "lastModifiedOn": 1643936328735
   },
   "creationTag": {
     "versionNumber": 0,
