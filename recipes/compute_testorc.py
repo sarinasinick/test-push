@@ -3,6 +3,7 @@ import dataiku
 from dataiku import spark as dkuspark
 from pyspark import SparkContext
 from pyspark.sql import SQLContext
+from pyspark import HiveContext
 
 sc = SparkContext.getOrCreate()
 sqlContext = HiveContext(sc)
