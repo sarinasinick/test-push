@@ -12,11 +12,11 @@
     "lastModifiedOn": 1644016704756
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644016704756
+    "lastModifiedOn": 1644016773801
   },
   "checklists": {
     "checklists": []
@@ -28,7 +28,23 @@
   },
   "tags": [],
   "triggers": [],
-  "reporters": [],
+  "reporters": [
+    {
+      "active": true,
+      "messaging": {
+        "type": "dataset-scenario",
+        "configuration": {
+          "projectKey": "DKU_TSHIRTS",
+          "datasetName": "test"
+        }
+      },
+      "id": "PIQi2bS0",
+      "name": "dataset",
+      "runConditionEnabled": true,
+      "runCondition": "outcome !\u003d \u0027SUCCESS\u0027",
+      "phase": "END"
+    }
+  ],
   "params": {
     "steps": []
   },
