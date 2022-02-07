@@ -24,7 +24,7 @@
     }
   },
   "formatParams": {
-    "style": "excel",
+    "style": "escape_only_no_quote",
     "charset": "utf8",
     "separator": ",",
     "quoteChar": "\"",
@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644274160722
+    "lastModifiedOn": 1644274168349
   },
   "creationTag": {
     "versionNumber": 0,
