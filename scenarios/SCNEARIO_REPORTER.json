@@ -5,18 +5,18 @@
   "name": "scneario_reporter",
   "active": false,
   "creationTag": {
-    "versionNumber": 16,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1644272477637
-  },
-  "versionTag": {
     "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1644272478334
+  },
+  "versionTag": {
+    "versionNumber": 18,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1644272484642
   },
   "checklists": {
     "checklists": []
@@ -67,6 +67,8 @@
             "type": "mail-scenario",
             "configuration": {
               "subject": "DSS scenario ${scenarioName}: ${now}",
+              "sender": "sarina.sinick@dataiku.com",
+              "recipient": "sarina.sinick@dataiku.com",
               "sendAsHTML": false,
               "attachments": [],
               "messageSource": "TEMPLATE_FILE",
