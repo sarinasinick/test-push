@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643251112068
+    "lastModifiedOn": 1644274160722
   },
   "creationTag": {
     "versionNumber": 0,
@@ -76,6 +76,7 @@
   "params": {
     "bucket": "dku-sarina-support",
     "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "sarina_internal_db_test_2",
     "metastoreTableName": "adult_1_prepared_a",
     "connection": "s3",
     "path": "/dataiku/${projectKey}/adult_1_prepared_a",
