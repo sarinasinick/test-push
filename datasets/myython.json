@@ -24,7 +24,7 @@
     }
   },
   "formatParams": {
-    "style": "excel",
+    "style": "unix",
     "charset": "utf8",
     "separator": "\t",
     "quoteChar": "\"",
@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643310076937
+    "lastModifiedOn": 1644274110184
   },
   "creationTag": {
     "versionNumber": 0,
@@ -76,6 +76,7 @@
   "params": {
     "bucket": "dku-sarina-support",
     "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "sarina_internal_db_test_1",
     "metastoreTableName": "myython",
     "connection": "s3",
     "path": "/dataiku/${projectKey}/myython",
@@ -150,7 +151,7 @@
         "type": "string"
       }
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
