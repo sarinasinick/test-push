@@ -5,7 +5,18 @@
   },
   "keys": [
     {
-      "column": "prttn_trade_dt"
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "last": false,
+      "max": false,
+      "column": "prttn_trade_dt",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "type": "int",
+      "stddev": false,
+      "first": false
     }
   ],
   "values": [
@@ -15,8 +26,10 @@
       "firstLastNotNull": false,
       "column": "col1",
       "count": false,
+      "$idx": 0,
       "sum": false,
       "concat": false,
+      "type": "string",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -31,8 +44,10 @@
       "firstLastNotNull": false,
       "column": "col2",
       "count": false,
+      "$idx": 1,
       "sum": false,
       "concat": false,
+      "type": "string",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -67,7 +82,12 @@
       "readParams": {
         "mode": "AUTO",
         "autoModeRepartitionInto": 10,
-        "map": {}
+        "map": {
+          "pttn_test_group_1_copy": {
+            "cache": false,
+            "repartition": 10
+          }
+        }
       },
       "overwriteOutputSchema": false,
       "executionEngine": "SPARK_SUBMIT",
@@ -77,9 +97,26 @@
       }
     }
   },
+  "engineType": "SPARK",
   "enlargeYourBits": true,
+  "outputColumnNameOverrides": {},
   "computedColumns": [],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "prttn_trade_dt",
+            "type": "int"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
