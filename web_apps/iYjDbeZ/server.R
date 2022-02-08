@@ -2,7 +2,7 @@ library(shiny)
 library(dataiku)
 
 myGeoDataset <- dkuReadDataset("DKU_TSHIRTS.crm_history", samplingMethod="head", nbRows=1000)
-
+put(myGeoDataset)
 shinyServer(function(input, output) {
 
   output$mymap <- renderLeaflet({
