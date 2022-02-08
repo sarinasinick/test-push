@@ -4,7 +4,8 @@
   "params": {
     "autoStartBackend": false,
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "shiny"
     },
     "infra": {
       "containerSelection": {
@@ -31,11 +32,11 @@
   "config": {},
   "name": "test",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644279072246
+    "lastModifiedOn": 1644283306082
   },
   "creationTag": {
     "versionNumber": 0,
