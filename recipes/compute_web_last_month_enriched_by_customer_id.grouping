@@ -5,7 +5,18 @@
   },
   "keys": [
     {
-      "column": "customer_id"
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "last": false,
+      "max": false,
+      "column": "customer_id",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "stddev": false,
+      "first": false
     }
   ],
   "values": [
@@ -15,8 +26,10 @@
       "firstLastNotNull": false,
       "column": "ip",
       "count": false,
+      "$idx": 0,
       "sum": false,
       "concat": false,
+      "type": "string",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -31,8 +44,10 @@
       "firstLastNotNull": false,
       "column": "ip_country",
       "count": false,
+      "$idx": 1,
       "sum": false,
       "concat": false,
+      "type": "string",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -47,8 +62,10 @@
       "firstLastNotNull": false,
       "column": "pages_visited",
       "count": false,
+      "$idx": 2,
       "sum": false,
       "concat": false,
+      "type": "double",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -63,8 +80,10 @@
       "firstLastNotNull": false,
       "column": "campain",
       "count": false,
+      "$idx": 3,
       "sum": false,
       "concat": false,
+      "type": "boolean",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -79,8 +98,10 @@
       "firstLastNotNull": false,
       "column": "revenue",
       "count": false,
+      "$idx": 4,
       "sum": false,
       "concat": false,
+      "type": "double",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -126,8 +147,25 @@
     }
   },
   "enlargeYourBits": true,
+  "outputColumnNameOverrides": {},
   "computedColumns": [],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "customer_id",
+            "type": "string",
+            "maxLength": 1000
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
