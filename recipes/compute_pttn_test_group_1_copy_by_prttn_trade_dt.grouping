@@ -14,7 +14,7 @@
       "count": false,
       "sum": false,
       "concat": false,
-      "type": "int",
+      "type": "string",
       "stddev": false,
       "first": false
     }
@@ -107,7 +107,7 @@
         "columns": [
           {
             "name": "prttn_trade_dt",
-            "type": "int"
+            "type": "string"
           },
           {
             "name": "count",
