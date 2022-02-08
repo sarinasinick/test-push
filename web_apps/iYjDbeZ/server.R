@@ -1,7 +1,7 @@
 library(shiny)
 library(dataiku)
 
-myGeoDataset <- dkuReadDataset("REPLACE_WITH_YOUR_DATASET_NAME", samplingMethod="head", nbRows=1000)
+myGeoDataset <- dkuReadDataset("DKU_TSHIRTS.crm_history", samplingMethod="head", nbRows=1000)
 
 shinyServer(function(input, output) {
 
