@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644369329784
+    "lastModifiedOn": 1644369359449
   },
   "creationTag": {
     "versionNumber": 0,
@@ -71,7 +71,7 @@
         "type": "date"
       }
     ],
-    "userModified": true
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
