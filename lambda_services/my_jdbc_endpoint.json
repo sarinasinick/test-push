@@ -15,7 +15,13 @@
           "maxResults": -1
         }
       ],
-      "testQueries": [],
+      "testQueries": [
+        {
+          "q": {
+            "customer": "sarina"
+          }
+        }
+      ],
       "id": "jdbctest",
       "type": "SQL_QUERY"
     }
@@ -25,11 +31,11 @@
     "queryKeys": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644435153395
+    "lastModifiedOn": 1644435159453
   },
   "creationTag": {
     "versionNumber": 0,
