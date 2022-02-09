@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644365033865
+    "lastModifiedOn": 1644365041506
   },
   "creationTag": {
     "versionNumber": 0,
@@ -105,7 +105,7 @@
       },
       {
         "name": "prttn_trade_dt",
-        "type": "string"
+        "type": "int"
       },
       {
         "name": "col2",
