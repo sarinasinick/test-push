@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644369113729
+    "lastModifiedOn": 1644369329784
   },
   "creationTag": {
     "versionNumber": 0,
@@ -65,7 +65,12 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "prttn_trade_dt",
+        "type": "date"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
