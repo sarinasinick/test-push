@@ -1,15 +1,30 @@
 {
-  "endpoints": [],
+  "name": "my_jdbc_endpoint",
+  "endpoints": [
+    {
+      "queries": [
+        {
+          "inputParameters": [],
+          "query": "-- Insert your SQL code here",
+          "postCommit": false,
+          "maxResults": -1
+        }
+      ],
+      "testQueries": [],
+      "id": "jdbctest",
+      "type": "SQL_QUERY"
+    }
+  ],
   "publicAccess": true,
   "authRealm": {
     "queryKeys": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644435127128
+    "lastModifiedOn": 1644435136344
   },
   "creationTag": {
     "versionNumber": 0,
