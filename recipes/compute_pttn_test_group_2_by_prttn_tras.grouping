@@ -5,16 +5,18 @@
   },
   "keys": [
     {
+      "last": false,
+      "max": false,
+      "column": "int_prttn_trade_dt",
+      "count": false,
+      "$idx": 3,
+      "sum": false,
+      "concat": false,
+      "type": "double",
       "countDistinct": false,
       "min": false,
       "avg": false,
-      "last": false,
-      "max": false,
-      "column": "prttn_trade_dt",
-      "count": false,
-      "sum": false,
-      "concat": false,
-      "type": "int",
+      "$selected": false,
       "stddev": false,
       "first": false
     }
@@ -41,17 +43,14 @@
     {
       "last": false,
       "max": false,
-      "firstLastNotNull": false,
-      "column": "col2",
+      "column": "prttn_trade_dt",
       "count": false,
       "$idx": 1,
       "sum": false,
       "concat": false,
-      "type": "string",
-      "concatDistinct": false,
-      "sum2": false,
-      "min": false,
+      "type": "int",
       "countDistinct": false,
+      "min": false,
       "avg": false,
       "stddev": false,
       "first": false
@@ -59,14 +58,17 @@
     {
       "last": false,
       "max": false,
-      "column": "int_prttn_trade_dt",
+      "firstLastNotNull": false,
+      "column": "col2",
       "count": false,
       "$idx": 2,
       "sum": false,
       "concat": false,
-      "type": "double",
-      "countDistinct": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
       "min": false,
+      "countDistinct": false,
       "avg": false,
       "stddev": false,
       "first": false
@@ -128,8 +130,8 @@
       "schema": {
         "columns": [
           {
-            "name": "prttn_trade_dt",
-            "type": "int"
+            "name": "int_prttn_trade_dt",
+            "type": "double"
           },
           {
             "name": "count",
