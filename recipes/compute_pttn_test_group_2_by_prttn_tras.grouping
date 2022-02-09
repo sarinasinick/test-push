@@ -12,7 +12,7 @@
       "$idx": 3,
       "sum": false,
       "concat": false,
-      "type": "int",
+      "type": "bigint",
       "countDistinct": false,
       "min": false,
       "avg": false,
@@ -122,7 +122,7 @@
       "mode": "GREL",
       "name": "int_prttn_trade_dt",
       "expr": "toBase64(prttn_trade_dt)",
-      "type": "int"
+      "type": "bigint"
     }
   ],
   "postFilter": {
