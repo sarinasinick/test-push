@@ -121,7 +121,7 @@
     {
       "mode": "GREL",
       "name": "int_prttn_trade_dt",
-      "expr": "toNumber(prttn_trade_dt)",
+      "expr": "toBase64(prttn_trade_dt)",
       "type": "double"
     }
   ],
