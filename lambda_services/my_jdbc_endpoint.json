@@ -2,10 +2,15 @@
   "name": "my_jdbc_endpoint",
   "endpoints": [
     {
+      "connection": "jdbc_connection",
       "queries": [
         {
-          "inputParameters": [],
-          "query": "-- Insert your SQL code here",
+          "inputParameters": [
+            {
+              "name": "customer"
+            }
+          ],
+          "query": "SELECT * FROM \"DKU_TSHIRTS_test_customer_copy\" where customer \u003d ?",
           "postCommit": false,
           "maxResults": -1
         }
@@ -20,11 +25,11 @@
     "queryKeys": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644435136344
+    "lastModifiedOn": 1644435153395
   },
   "creationTag": {
     "versionNumber": 0,
