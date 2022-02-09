@@ -9,7 +9,11 @@
     "readParams": {
       "mode": "AUTO",
       "autoModeRepartitionInto": 10,
-      "map": {}
+      "map": {
+        "pttn_test_group_2_copy_1": {
+          "repartition": 10
+        }
+      }
     },
     "sparkConfig": {
       "inheritConf": "default",
@@ -49,11 +53,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644369114970
+    "lastModifiedOn": 1644369307662
   },
   "creationTag": {
     "versionNumber": 0,
