@@ -55,6 +55,21 @@
       "avg": false,
       "stddev": false,
       "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "column": "int_prttn_trade_dt",
+      "count": false,
+      "$idx": 2,
+      "sum": false,
+      "concat": false,
+      "type": "double",
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
     }
   ],
   "globalCount": true,
@@ -100,7 +115,14 @@
   "engineType": "SPARK",
   "enlargeYourBits": true,
   "outputColumnNameOverrides": {},
-  "computedColumns": [],
+  "computedColumns": [
+    {
+      "mode": "GREL",
+      "name": "int_prttn_trade_dt",
+      "expr": "toNumber(prttn_trade_dt)",
+      "type": "double"
+    }
+  ],
   "postFilter": {
     "$status": {
       "schema": {
