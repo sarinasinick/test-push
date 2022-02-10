@@ -5,18 +5,18 @@
   "name": "MY_SCENARIO.TEST",
   "active": false,
   "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1644454614451
-  },
-  "versionTag": {
     "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1644454616230
+  },
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1644454822824
   },
   "checklists": {
     "checklists": []
@@ -30,7 +30,29 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "custom_python_nB3QPZJblgJAPmRd3jgcbg",
+        "type": "custom_python",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "script": "print(\u0027hit\u0027)",
+          "envSelection": {
+            "envMode": "INHERIT"
+          },
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
