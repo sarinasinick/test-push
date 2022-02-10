@@ -35,11 +35,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644369913391
+    "lastModifiedOn": 1644473095094
   },
   "creationTag": {
     "versionNumber": 0,
@@ -52,6 +52,7 @@
   "params": {
     "bucket": "dku-sarina-support",
     "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "some_default_database_value",
     "metastoreTableName": "pttn_test_group_2_copy_by_prttn_trade_dt",
     "connection": "s3",
     "path": "/dataiku/${projectKey}/pttn_test_group_2_copy_by_prttn_trade_dt",
@@ -74,81 +75,81 @@
         "type": "bigint"
       }
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
-    "probes": [
-      {
-        "type": "basic",
-        "enabled": true,
-        "computeOnBuildMode": "PARTITION",
-        "meta": {
-          "name": "Basic data",
-          "level": 0
-        },
-        "configuration": {}
-      },
-      {
-        "type": "records",
-        "enabled": true,
-        "computeOnBuildMode": "NO",
-        "meta": {
-          "name": "Record count",
-          "level": 0
-        },
-        "configuration": {}
-      }
-    ],
     "engineConfig": {
-      "padRunsWithMetrics": false,
-      "hive": {
-        "active": true,
-        "extraConf": []
-      },
+      "python": {},
       "basic": {},
       "dss": {
         "active": true,
         "selection": {
-          "useMemTable": false,
+          "targetRatio": 0.02,
+          "maxReadUncompressedBytes": -1,
+          "ordering": {
+            "rules": [],
+            "enabled": false
+          },
+          "latestPartitionsN": 1,
           "filter": {
             "distinct": false,
             "enabled": false
           },
-          "partitionSelectionMethod": "ALL",
-          "latestPartitionsN": 1,
-          "ordering": {
-            "enabled": false,
-            "rules": []
-          },
-          "samplingMethod": "FULL",
-          "maxRecords": -1,
-          "targetRatio": 0.02,
           "withinFirstN": -1,
-          "maxReadUncompressedBytes": -1
+          "maxRecords": -1,
+          "partitionSelectionMethod": "ALL",
+          "useMemTable": false,
+          "samplingMethod": "FULL"
         }
       },
-      "sql": {
-        "active": true
+      "hive": {
+        "active": true,
+        "extraConf": []
       },
-      "impala": {
+      "sql": {
         "active": true
       },
       "spark": {
         "active": true,
         "extraConf": []
       },
-      "python": {}
+      "impala": {
+        "active": true
+      },
+      "padRunsWithMetrics": false
     },
     "displayedState": {
-      "columns": [],
       "metrics": [
         "basic:COUNT_COLUMNS",
         "basic:COUNT_FILES",
         "basic:SIZE",
         "records:COUNT_RECORDS"
-      ]
-    }
+      ],
+      "columns": []
+    },
+    "probes": [
+      {
+        "enabled": true,
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "type": "basic",
+        "configuration": {},
+        "computeOnBuildMode": "PARTITION"
+      },
+      {
+        "enabled": true,
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "type": "records",
+        "configuration": {},
+        "computeOnBuildMode": "NO"
+      }
+    ]
   },
   "metricsChecks": {
     "runOnBuild": false,
