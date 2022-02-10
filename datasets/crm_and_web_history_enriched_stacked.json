@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642815846777
+    "lastModifiedOn": 1644472888858
   },
   "creationTag": {
     "versionNumber": 0,
@@ -76,6 +76,7 @@
   "params": {
     "bucket": "dku-sarina-support",
     "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "test_db",
     "metastoreTableName": "crm_and_web_history_enriched_stacked",
     "connection": "s3",
     "path": "/dataiku/${projectKey}/crm_and_web_history_enriched_stacked",
