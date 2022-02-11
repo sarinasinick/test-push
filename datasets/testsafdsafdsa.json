@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644609061158
+    "lastModifiedOn": 1644609087868
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,7 +54,14 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "sarina",
+        "type": "string",
+        "comment": "",
+        "maxLength": 1000
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
