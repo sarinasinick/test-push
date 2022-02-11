@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1644609128815
+    "lastModifiedOn": 1644609134706
   },
   "creationTag": {
     "versionNumber": 0,
@@ -48,6 +48,7 @@
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "table": "sarina",
+    "schema": "sarina",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
