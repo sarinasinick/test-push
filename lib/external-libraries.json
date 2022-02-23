@@ -4,11 +4,11 @@
       "remote": "git@github.com:sarinasinick/expert-adventure.git",
       "checkout": "refs/heads/main",
       "remotePath": "sarinalibrary",
-      "lastHash": "4cfd1b64811307d0b4eed3a9ecfa555c854bf355",
+      "lastHash": "ac409d98d5de314ede5c132640b9b761f9b64e00",
       "conflictingFiles": [],
       "resolvedFiles": [],
       "faultyHash": "",
-      "isDirty": true
+      "isDirty": false
     }
   },
   "pythonPath": [
