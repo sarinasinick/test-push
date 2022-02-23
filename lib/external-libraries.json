@@ -1,7 +1,15 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "sarinalibrary": {
+      "remote": "git@github.com:sarinasinick/expert-adventure.git",
+      "checkout": "refs/heads/main",
+      "remotePath": "sarinalibrary",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "sarinalibrary"
   ],
   "rsrcPath": [
     "R"
